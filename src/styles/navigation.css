@@ -1,0 +1,17 @@
+
+
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FB5761;
+    color: #fff;
+    z-index:10
+}
