@@ -1,0 +1,21 @@
+
+.home {
+    overflow: hidden;
+    position:relative
+}
+
+.homeImage {
+    object-fit: cover;
+    width: 100%;
+}
+
+.homeText {
+    color: white;
+    position: absolute;
+
+    top: 60%;
+    bottom: 2%;
+    left: 10%;
+    right: 10%;
+}
+
