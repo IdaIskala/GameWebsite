@@ -10,7 +10,7 @@
 }
 
 .homeText {
-    color: white;
+    color: var(--white);
     position: absolute;
 
     top: 60%;

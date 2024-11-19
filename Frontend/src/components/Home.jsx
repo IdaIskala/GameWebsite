@@ -1,26 +1,26 @@
 import '../styles/home.css'
 import mainImage from '../assets/mainImage.jpg'
 
-function Home() {
+const Home = () => {
 
     return (
-            <section className='home'>
+        <section className='home'>
+            <div>
+                <img src={mainImage} alt="" className='homeImage'></img>
+            </div>
+            <div className='homeText'>
                 <div>
-                    <img src={mainImage} alt="" className='homeImage'></img>
-                </div>
-                <div className='homeText'>
-                    <div>
-                        <h1>Fun games</h1>
-                    </div>
-                    <div>
-                        <p >find out fun games</p>
-                    </div>
-                    
+                    <h1>Fun games</h1>
                 </div>
                 <div>
-                    
+                    <p >find out fun games</p>
                 </div>
-            </section>
+                
+            </div>
+            <div>
+                
+            </div>
+        </section>
     )
 
 }

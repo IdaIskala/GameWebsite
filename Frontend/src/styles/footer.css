@@ -11,6 +11,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7EBFF4;
-    color: #fff;
+    background-color: var(--blue);
+    color: var(--white);
 }

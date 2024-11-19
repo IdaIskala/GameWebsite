@@ -6,12 +6,39 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2% 5%;
+    padding: 1% 2%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FB5761;
-    color: #fff;
+    background-color: var(--red);
+    color: var(--white);
     z-index:10
 }
+
+
+
+.logoImage {
+    width: 3em;
+    height: 3em;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navLink {
+    text-decoration: none; 
+    color:var(--white);
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.navLink:hover {
+    color: var(--blue);
+}
+
+   
