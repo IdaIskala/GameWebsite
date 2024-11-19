@@ -1,6 +1,7 @@
 import '../styles/navigation.css'
 import logo from '../assets/LogoNoBG.png'
 import { NavLink } from "react-router-dom"
+import '../index.css'
 
 const Navigation = () => {
 
@@ -30,7 +31,7 @@ const NavBarElement = (props) => {
     return (
         <NavLink 
             to={props.toURL} 
-            className='navLink' 
+            className='navLink linkNoDecor' 
             style={({ isActive }) => {
                 return {
                 color: isActive ? 'var(--blue)' : 'var(--white)',

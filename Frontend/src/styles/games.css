@@ -1,0 +1,40 @@
+.games {
+    margin: 7em 5em 3em 5em;
+}
+
+.gameSection {
+    display: flex;
+    padding: 5px;
+    padding-bottom: 10em;
+}
+
+.textSection {
+    display: block;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 3em;
+}
+
+.playButton {
+    background: var(--red);
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 0.9em 1.8em;
+
+}
+
+iframe {
+    margin: 1em;
+}
+
+.videoEmbed {
+    
+}

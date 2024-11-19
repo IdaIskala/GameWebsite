@@ -10,6 +10,19 @@
   --white: #dfdbe5;
 }
 
+.linkNoDecor {
+  text-decoration: none; 
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 3em;
+}
+
 
 body {
   margin: 0;
@@ -17,4 +30,5 @@ body {
   background-color: var(--darkGray);
   min-width:100%;
   height:100vh;
+  color: var(--white);
 }
