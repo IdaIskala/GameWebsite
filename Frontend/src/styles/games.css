@@ -1,6 +1,3 @@
-.games {
-    margin: 7em 5em 3em 5em;
-}
 
 .gameSection {
     display: flex;
@@ -12,12 +9,7 @@
     display: block;
 }
 
-h1 {
-    font-size: 3em;
-    text-transform: uppercase;
-}
-
-p {
+.gameDescription {
     margin-bottom: 3em;
 }
 
@@ -33,8 +25,4 @@ p {
 
 iframe {
     margin: 1em;
-}
-
-.videoEmbed {
-    
 }

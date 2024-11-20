@@ -1,6 +1,4 @@
 
-
-
 :root {
   --blue: #1e90ff;
   --red: #FB5761;
@@ -15,20 +13,35 @@
 }
 
 h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+
+h2 {
   font-size: 3em;
   text-transform: uppercase;
 }
 
 p {
-  margin-bottom: 3em;
+  font-size: 1.2em;
+}
+
+/*These margins are used in most pages*/
+.basigMargins {
+  margin: 7em 5em 3em 5em;
 }
 
 
+.textSectionMargins {
+  margin-bottom: 10em;
+  padding: 0% 5%;
+}
+
 body {
-  margin: 0;
+  margin: 100px 0px 0px 0px;
   padding: 0;
   background-color: var(--darkGray);
   min-width:100%;
-  height:100vh;
   color: var(--white);
 }

@@ -1,10 +1,9 @@
 import '../styles/games.css'
 import {Link} from 'react-router-dom'
-import '../index.css'
 
 const Games = () => {
     return (
-        <div className='games'>
+        <div className='basigMargins'>
             <GameSection 
                 gameName='Sentry System'
                 gameDescription='this is a game! more text here more text here more text here more text here more text here more text here more text here'
@@ -27,17 +26,14 @@ const Games = () => {
 
 //presents one game
 const GameSection = ({gameName, gameDescription, steamURL}) => {
-
-
-
     return (
         <div className='gameSection'>
             <section className='textSection'>
-                <h1>{gameName}</h1>
-                <p>{gameDescription}</p>
+                <h2>{gameName}</h2>
+                <p className='gameDescription'>{gameDescription}</p>
                 <Link className='playButton linkNoDecor'  to={steamURL} target='_blank'>Play</Link>
             </section>
-            <VideoEmbed className = 'videoEmbed'/>
+            <VideoEmbed/>
         </div>
     )
 }
