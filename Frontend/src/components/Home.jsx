@@ -1,5 +1,5 @@
 import '../styles/home.css'
-import mainImage from '../assets/mainImage.jpg'
+import mainImage from '../assets/mainImage grayscale blurred blue.jpg'
 
 const Home = () => {
 
