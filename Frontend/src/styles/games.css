@@ -15,7 +15,7 @@
 
 .playButton {
     background: var(--red);
-    color: var(--white);
+    color: var(--text);
     text-transform: uppercase;
     font-size: 1.5em;
     border-radius: 5px;

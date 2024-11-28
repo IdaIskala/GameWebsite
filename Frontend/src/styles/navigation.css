@@ -11,8 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1e1e2475;/*var(--red);*/
-    color: var(--white);
+    background-color: var(--navigation);
+    color: var(--text);
     z-index:10
 }
 
@@ -32,7 +32,7 @@
 
 
 .navLink {
-    color:var(--white);
+    color:var(--text);
     padding: 1em;
     font-size: 1.2em;
 }

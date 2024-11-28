@@ -13,7 +13,7 @@ const Home = () => {
                 </img>
                 <div className='homeText'>
                     <h1>Fun games</h1>
-                    <p >Find out our fun games!</p>
+                    <p className='homeParagraph'>Find out our fun games!</p>
                 </div>
             </section> 
             <section className='textSectionMargins'>

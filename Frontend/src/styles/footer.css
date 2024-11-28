@@ -12,9 +12,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--blue);
-    color: var(--white);
+    color: var(--text);
 }
 
 .footerElement {
-    color: var(--white);
+    color: var(--text);
 }
